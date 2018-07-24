@@ -1,0 +1,101 @@
+body
+{
+	overflow-x:hidden;
+}
+.header
+{
+	background-color: 	#a91a05;
+	margin-left:0px;
+	color:white;
+	height:30px;
+
+}
+ .header p
+{
+	text-align:center;
+	margin-top:5px;
+}
+li
+{
+	display:inline;
+	color:white;
+}
+li:hover
+{
+	text-decoration:underline;
+}
+.menu1
+{
+	margin-right: 140px;
+}
+.menu1 li
+{
+	padding:0px;
+	margin-right:10px;
+}
+ul a
+{   
+	color:black;
+	opacity:0.4;
+	font-size:26px;
+}
+ul a:hover
+{
+	opacity:2.1;
+}
+.menu1 li
+{
+	text-decoration:none;
+}
+
+.link a
+{
+	color:brown;
+}
+.msg
+{
+	background-color:white;
+ height:100px;
+ padding:30px;
+}
+.para
+{
+	background-image:url("../img/parallax.jpg");
+    background-attachment:fixed;
+	height:500px;
+	
+}
+.para .container
+{
+	padding:120px;
+	color:white;
+}
+.head
+{
+	text-align:center;
+}
+.img img:hover
+{
+ opacity:0.5;
+  -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+
+
+}
+.img1
+{
+	background-image:url("../img/parallax-1.jpg");
+	background-attachment:fixed;
+	height:500px;
+	
+	color:white;
+}
+.img1 .container
+{
+	padding:50px;
+}
+.page
+{
+	color:black;
+}
